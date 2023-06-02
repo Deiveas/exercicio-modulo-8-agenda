@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Foldit', cursive;
+}
+
+body {
+    background-color:#A9F5F2;
+    padding-top: 100px;
+}
+
+header{
+    background-color: #A9F5F2;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+header img {
+    margin-right: 16px;
+    height: 100px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+form {
+    text-align: left;
+    margin-bottom: 40px;
+}
+form input button {
+    max-width: 640px;
+    width: 100%;
+    margin-bottom: 56px;
+    margin: 10px;
+}
+
+form input {
+    background-color: #F7FE2E;
+    border: none;
+    font-size: 20px;
+}
+
+form button {
+    background-color: #0000FF;
+    border: none;
+    font-size: 20px;
+    color: #F7FE2E;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+
+form input::placeholder{
+    color: #0000FF;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+table th {
+    display: inline-flexbox;
+    padding: 16px 0;
+    text-align: left;
+    font-size: 20px;
+}
+
+.alin {
+    text-align: left;
+}
+
+#mensagem-error{
+    background-color: red;
+    padding: 16px;
+    display: none;
+    color: #fff;
+    text-transform: uppercase;
+    width: 40%;
+}
+
+#mensagem-valid {
+    background-color: green;
+    padding: 16px;
+    display: none;
+    color: #fff;
+    text-transform: uppercase;
+    width: 40%;
+}
